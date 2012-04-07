@@ -1,0 +1,539 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  language_name: "English"
+  actor:
+    name: "Name"
+  action:
+    send: "Send"
+    accept: "Accept"
+  account:
+    cancel: "Cancel account"
+    edit: "Edit account"
+    email:
+      change: "Change email address"
+    lang:
+      change: "Change language"
+    one: "Account"
+    password:
+      change: "Change password"
+      new: "New password"
+      retype: "Retype new password"
+    privacy: "Privacy"
+  activerecord:
+    attributes:
+      contact:
+        relation_ids: "Contact type"
+      relation/custom:
+        name: "Name"
+      user:
+        email: "Email"
+        name: "Name"
+        password: "Password"
+        password_confirmation: "Confirm password"
+        remember_me: "Remember me"
+  activity:
+    audience:
+      hidden:
+        summary: "Restricted"
+        full: "Shared with contacts of %{audience}"
+      public:
+        summary: "Public"
+        full: "Shared with all the Internet"
+      visible:
+        summary: "Restricted"
+        full: "Shared with %{audience}"
+    confirm_delete: "Delete activity?"
+    delete: "Delete"
+    last: "Last Activities"
+    like: "I like"
+    like_sentence:
+      one: "%{likers} likes this"
+      other: "%{likers} like this"
+      more:
+    one: "Activity"
+    other: "Activities"
+    privacy:
+      myself:
+        contacts:
+          group: "All members"
+          user: "Your contacts"
+      outside:
+        contacts:
+          group: "Members of %{receiver}"
+          user: "Contacts of %{receiver}"
+    sending: "Sending"
+    title: "Activities"
+    to_comment: "Comment"
+    unlike: "I do not like anymore"
+    verb:
+      follow:
+        User:
+          title: "%{subject} added %{contact} as contact."
+          message: "%{name} added you as contact."
+        Group:
+          title: "%{subject} added %{contact} as contact."
+          message: "%{name} added you as contact."
+      like:
+        User:
+          title: "%{subject} is a fan of %{contact}."
+          message: "%{name} is now your fan."
+        Group:
+          title: "%{subject} is a fan of %{contact}."
+          message: "%{name} is now your fan."
+      make-friend:
+        User:
+          title: "%{subject} and %{contact} are now connected."
+          message: "%{name} also added you as contact."
+        Group:
+          title: "%{subject} added %{contact} as contact."
+          message: "%{name} added you as contact."
+      post:
+        title:
+          other_wall: "%{sender} → %{receiver}"
+  activity_action:
+    follow: "Follow"
+    sentence:
+      follow:
+        one: "%{followers} follows this"
+        other: "%{followers} follow this"
+      more:
+        one: "%{count} more person"
+        other: "%{count} more people"
+    unfollow: "Unfollow"
+  browse: "Browse"
+  button:
+    cancel: "Cancel"
+    create: "Create"
+    save: "Save"
+    update: "Update"
+  cheesecake:
+    changes:
+      details: "Change details"
+      none: "No changes"
+      save: "Save changes"
+      saving: "Saving..."
+    form:
+      editing: "Editing"
+      fields:
+        color: "Color"
+        name: "Name"
+        permissions: "Permissions"
+        subsector: "Subsector"
+    select:
+      hint: "Select by clicking the portraits"
+  comment:
+    input: "Write a comment..."
+    confirm_delete: "Delete comment?"
+    name: "comment"
+    one: "a comment"
+    title:
+      one: "Comment"
+      other: "Comments"
+    view_all: "View all comments"
+  contact:
+    addressbook: "Addressbook"
+    all_n: "All contacts (%{count})"
+    confirm_delete: "Delete contact?"
+    current: "Current"
+    delete: "Delete"
+    edit:
+      title: "Edit contact to %{name}"
+      submit: "Edit contact"
+    error_count:
+      one: "1 error prohibited this contact from being saved:"
+      other: "%{count} errors prohibited this contact from being saved:"
+    follow: "Follow"
+    following: "Following"
+    graph:
+      one: "Graph"
+      empty: "We're sorry but you don't have any contacts yet. You can try the search box to look for somebody!"
+    in_common:
+      one: "1 contact in common"
+      other: "%{count} contacts in common"
+    new:
+      link: "+ Add contact"
+      title: "Add %{name} to your contacts"
+      menu: "Add contact"
+      submit: "Add Contact"
+    one: "Contact"
+    other: "Contacts"
+    pending:
+      other: "Pending"
+      all: "All"
+      all_n: "See all pending requests (%{count})"
+    relation:
+      one: "Contact type"
+      new: "New type"
+    reply:
+      link: "+ Reply contact"
+      title: "Reply contact request to %{name}"
+      submit: "Reply contact"
+    suggestion:
+      one: "Suggestion"
+      other: "Suggestions"
+      all: "All"
+    type:
+      new: "+ New type"
+    unfollow: "Unfollow"
+  copyright: "2010 Copyright - All rights reserved"
+  delete:
+    confirm: Delete %{element}}?
+  devise:
+    links:
+      sign_in: "Sign in"
+      sign_up: "Sign up"
+      forgot_password: "Forgot you password?"
+      confirmation_instructions: "Didn't receive confirmation instructions?"
+      unlock_instructions: "Didn't receive unlock instructions?"
+      sign_in_with: "Sign in with %{provider}"
+    passwords:
+      confirm: "Confirm password"
+      forgot: "Forgot your password?"
+      instructions: "Type the email address bound to your account and we will sent you instructions to change it:"
+      update: "Change your password"
+  follower:
+    n:
+      one: "1 follower"
+      other: "%{count} followers"
+  forgot_password: "Forgot you password?"
+  frontpage:
+    collaborate:
+      default: "Collaborate"
+      sentence1: "Organize your projects and activities"
+      sentence2: "Participate in conferences and events"
+      sentence3: "Create your own group and conferences"
+    elements:
+      comments: "Comments"
+      conferences: "Conferences"
+      networks: "Social Networks"
+      organizers: "Organizers"
+      participants: "Participants"
+      groups: "Groups"
+      tags: "Tags"
+    main_title: "Houzza is a social network website for Realtors to collaborate and share information."
+    meet:
+      default: "Meet"
+      sentence1: "Meet other realtors and create business groups"
+      sentence2: "Find last activity of your contacts"
+    register: "Register now!"
+    share:
+      default: "Share"
+      sentence1: "Your information and activities"
+      sentence2: "Posts, photos, audio and videos"
+    stats: "%{users} users and %{groups} groups registered"
+  group:
+    one: "Group"
+    other: "Groups"
+    all: "All groups"
+    all_n: "All groups (%{count})"
+    by: "By groups"
+    destroy:
+      one: "Destroy group"
+      explanation: "All the activities, information and contacts of this group will be destroyed!"
+      go_ahead: "Yes, I am sure. Destroy all!"
+      last_confirm: "This is your last chance. Are you really sure?"
+    form:
+      title: "Group"
+    input: "What is the name of the group?"
+    last: "Last groups"
+    my: "My groups"
+    new:
+      action: "New group"
+      name: "Name"
+      description: "Description"
+      participants: "Participants"
+    cloud: "Group tag cloud"
+    most:
+      followed: "Most followed"
+      liked: "Most liked"
+    tags: "Tags"
+    title:
+      one: "Group"
+      other: "Groups"
+  help: "Help"
+  helpers:
+    submit:
+      relation_custom:
+        create: "Save"
+        update: "Update"
+  home: "Home"
+  inbox:
+    one: "Inbox"
+  invitation:
+    e-mails: "E-mail addresses"
+    error: "Your request could not be processed. Make sure you wrote correct e-mail addresses."
+    invited: "%{sender} has invited you to %{site}!"
+    join: "Invite other people to join %{site}!"
+    join_me: "Join me at %{site}!"
+    one: "Invitation"
+    other: "Invitations"
+    toolbar: "Invite"
+    success: "Your invitations have successfully been sent"
+    text: "Write your own message"
+  like:
+    n:
+      one: "1 fan"
+      other: "%{count} fans"
+  location:
+    message: "You are here > %{location}"
+    base: "You are here"
+    separator: " > "
+  mailboxer:
+    delete: "Delete"
+    delete_confirm: "Do you want to move '%{object}' to trash?"
+    form:
+      body: "Body"
+      recipients: "Recipients"
+      subject: "Subject"
+    mark_as_read: "Mark as read"
+    message_mailer:
+      has_sent_new:
+        event: "has sent a new message to %{receiver}"
+        group: "has sent a new message to %{receiver}"
+        user: "has sent you a new message"
+      has_sent_reply:
+        event: "has sent a reply to %{receiver}"
+        group: "has sent a reply to %{receiver}"
+        user: "has sent you a reply"
+      subject_new: "%{subject}"
+      subject_reply: "%{subject}"
+    notification_mailer:
+      subject: "%{subject}"
+    reply: "Reply"
+    send: "Send message"
+    sent: "Your message was sent"
+  menu:
+    options: "Menu Options"
+    information: "Information"
+    wall: "Wall"
+  message:
+    answer: "Write your answer"
+    inbox: "Inbox"
+    look: "Take a look at this conversation"
+    new: "New Message"
+    one: "Message"
+    other: "Messages"
+    participants: "Participants"
+    send: "Send a message"
+    sentbox: "Sentbox"
+    trash: "Trash"
+  notification:
+    all_text: "Read the whole text at %{url}"
+    confirm: "Confirm %{sender} as contact?"
+    default: "You have a new notification"
+    destroy_sure: "Do you want to delete this notification?"
+    fan: "%{sender} is now %{whose} fan."
+    follow:
+      group: "%{sender} added %{who} as contact."
+      user: "%{sender} added %{who} as contact."
+    hello: "Hi %{receiver},"
+    like:
+      group: "%{sender} likes %{whose} %{thing}."
+      user: "%{sender} likes %{whose} %{thing}."
+    look: "Take a look at %{sender}'s wall"
+    makefriend:
+      group: "%{sender} also added %{who} as contact."
+      user: "%{sender} also added %{who} as contact."
+    one: "Notification"
+    other: "Notifications"
+    post:
+      group: "%{title} -- by %{sender} in %{whose} wall"
+      user: "%{title} -- by %{sender} in %{whose} wall"
+    read: "Mark as read"
+    read_all: "Mark all as read"
+    unread: "Mark as unread"
+    update:
+      group: "%{sender} updated %{thing} in %{whose} wall."
+      user: "%{sender} updated %{thing} in %{whose} wall."
+    visit: "Visit %{url} and check all your notifications."
+    watch: "Watch it at %{url}"
+    watch_it: "Watch it!"
+    who:
+      group: "%{name}"
+      user: "you"
+    whose:
+      group: "%{receiver}'s"
+      user: "your"
+  post:
+    confirm_delete: "Delete post?"
+    form:
+      title: "Post"
+    input: "What are you doing?"
+    name: "post"
+    one: "a post"
+    title:
+      one: "Post"
+      other: "Posts"
+  preposition:
+    and: "and"
+    on: "on"
+  profile:
+    one: "Profile"
+    age: "Age"
+    is_on: "is on"
+    must_be_signed_id: "You must be signed in"
+    group:
+      about: "About us"
+      birthday: "Anniversary"
+      experience: "Area of expertise"
+      info: "Group information"
+      tags: "Group tags"
+    user:
+      about: "About me"
+      birthday: "Birthday"
+      experience: "Experience"
+      info: "Personal information"
+      tags: "User tags"
+    actualcity: "Actual City"
+    address: "Address"
+    contact: "Contact information"
+    country: "Country"
+    email: "E-mail"
+    empty: "These fields are empty. Please, update them."
+    fax: "Fax"
+    mobile: "Mobile"
+    organization: "Organization"
+    phone: "Phone"
+    profile: "Edit profile"
+    tags:
+      default: "social, stream,"
+      other: "Tags"
+    website: "Website"
+    update:
+      error: "Please, check the format of your profile:"
+      success: "Your profile has been updated"
+  public:
+    other: "Everybody"
+  permission:
+    description:
+      default:
+        brief:
+          create:
+            activity: "Post to your wall"
+          follow:
+            nil: "Follow their activity"
+          read:
+            activity: "Read your wall"
+          represent:
+            nil: "Administrate"
+          notify:
+            nil: "Notify"
+        detailed:
+          create:
+            activity:
+              positive: "They WILL BE ABLE to post new activities to your wall"
+              negative: "They WILL NOT BE ABLE to post new activities to your wall"
+          follow:
+            nil:
+              positive: "Activities of the contacts at %{relation} WILL APPEAR in your home wall"
+              negative: "Activities of the contacts at %{relation} WILL APPEAR in your home wall"
+          read:
+            activity:
+              positive: "They WILL BE ABLE to read posts in your wall, except those shared with specific contacts"
+              negative: "They WILL NOT BE ABLE to read posts in your wall, except those marked as public"
+          represent:
+            nil:
+              positive: "They WILL BE ABLE to change session and act as %{subject}"
+              negative: "They WILL NOT BE ABLE to change session and act as %{subject}"
+          notify:
+            nil:
+              positive: "Activities WILL BE notified to contacts at %{name}"
+              negative: "Activities WILL NOT BE notified to contacts at %{name}"
+    of_relation:
+      choose: "2. Permissions in <strong>%{name}</strong> sphere"
+  privacy:
+    intro: "Contacts at <strong>%{relation}</strong> level are only allowed to:"
+    rule:
+      add: "Add"
+      title: "Privacy rules"
+      saved: "Privacy rules saved"
+  relation_custom:
+    choose: "1. Choose sphere"
+    confirm_delete: "Delete this sphere?"
+    delete: "Delete"
+    edit: "Change name"
+    new: "+ New sphere"
+    title: "Privacy & context"
+  relation_public:
+    name: "Public"
+  representation:
+    notice: "Your session has changed. Now you are acting on behalf of %{subject}. Use the top-right menu to return to your session"
+    switch: "Switch session"
+  required: "(*) These fields are required"
+  search:
+    all_results: "Search all %{subject} (%{count})"
+    at_least: "Write at least two characters"
+    global:
+      name: "Global search"
+      first_result:
+        more: "Showing the first %{count} results."
+        one: "Showing the first result."
+      query: "See more results for %{query} >"
+    name: "Search"
+    no_subject_found: "No %{subject} was found."
+    nothing: "Nothing found"
+    searching: "Searching: %{query}"
+    show_all: "All"
+    write: "Write your query ..."
+    wrong: "There seems to be a problem with the search engine"
+  settings:
+    api_key:
+      briefing: "Manage your API key"
+      confirm: "Are you sure?"
+      empty: "Empty Token"
+      explanation: "This is your API key"
+      name: "API Key"
+      regenerate: "Regenerate API key"
+    cancel_account:
+      briefing: "Lets you cancel your account"
+    email_change:
+      briefing: "Change your email"
+    lang_change:
+      briefing: "Change your language"
+      name: "Change your language"
+    error: "Some errors raised when saving your changes"
+    for: "Settings for"
+    main: "Settings"
+    manage:
+      name: "Admin Contacts"
+      briefing: "Settings for contacts"
+      explanation: "Change contacts permissions"
+    notifications:
+      briefing: "Settings about notifications behavior and mail alerts"
+      name: "Notifications"
+      by_email:
+        name: "Send me an email when I receive a notification"
+        always: "Always"
+        never: "Never"
+    one: "Settings"
+    password_change:
+      briefing: "Change your password"
+    success: "Your settings where correctly changed"
+  share: "Share"
+  sign_in: "Sign in"
+  sign_out: "Sign out"
+  sign_up: "Sign up"
+  site:
+    name: "Social Stream"
+  subject:
+    this_is_you: "This is you!"
+  sure: "Are you sure?"
+  time:
+    ago: "%{time} ago"
+  unknown: "Unknown"
+  user:
+    all: "All users"
+    all_n: "All users (%{count})"
+    by: "By Users"
+    one: "User"
+    other: "Users"
+    title:
+      one: "User"
+      other: "Users"
+  welcome: "Welcome to %{site}!"
+  lang:
+    browser: "Auto-detect browser language"
+    none: "Language independent content"
+
