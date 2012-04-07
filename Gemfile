@@ -6,7 +6,6 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
-gem 'rmagick', '~> 2.12.2'
 gem 'social_stream', '~> 0.25.1'
 
 
